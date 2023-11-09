@@ -6,6 +6,11 @@ Today, i decided to show the public something, well there has been a executor go
 - quiving lua UI and CE bypass stuff
 - Nano -> for fixing it 
 
+
+### the game got taken down what do i do?
+join the discord https://discord.gg/runesoftware we have reuploaded the game file if you wanna publish it
+
+
 ### Executor Works for Web and UWP
 - WARNING THIS ONLY WORKS IF THE GAME YOU ARE EXECUTING ON HAS A INVENTORY AND A TOOL IN ITS INVENTORY
 - Download the release then extract it to a folder run pleaseruneme.exe
