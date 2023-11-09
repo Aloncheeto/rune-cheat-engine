@@ -11,6 +11,11 @@ Today, i decided to show the public something, well there has been a executor go
   <img src="https://media.discordapp.net/attachments/1160389674880217169/1172198876875333683/image.png?ex=655f7246&is=654cfd46&hm=330f2a30c5a465bdcb374e56ca546dc2d02e75b9f9d573f527a92ffbb9d3321a&=&width=816&height=425"> </a>
 
 
+### Custom lua thingys
+_G.IY()
+_G.dex()
+_G.prisonlife()
+
 
 ### How to you use CE with roblox? Old Method
 well it's quite simple and you don't have to pay 25$ for it either :skull: this will only work for the UWP version for roblox
