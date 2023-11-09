@@ -12,6 +12,7 @@ well it's quite simple and you don't have to pay 25$ for it either :skull: this 
 
 ### Executor
 - Follow the instructions here -> https://robloxscripts.com/cheat-engine-script-execution-for-byfron-on-roblox-uwp/
+- you can get the script to run from this github repo, under exec.lua
 
 ### Web Version
 - To get it working on the web version it will take leet haxor skill JK just download the CE source
