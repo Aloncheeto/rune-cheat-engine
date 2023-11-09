@@ -12,9 +12,9 @@ Today, i decided to show the public something, well there has been a executor go
 
 
 ### Custom lua thingys
-_G.IY()
-_G.dex()
-_G.prisonlife()
+_G.IY()<br>
+_G.dex()<br>
+_G.prisonlife()<br>
 
 
 ### How to you use CE with roblox? Old Method
