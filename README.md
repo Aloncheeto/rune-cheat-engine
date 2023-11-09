@@ -1,7 +1,18 @@
 # Ce_rbx
 Today, i decided to show the public something, well there has been a executor going around called "Netflix" which is just cheat engine source, with the icons changed and the name changed. Using our dev Jayys script he posted on verm. So this dude decided to scam people with this thing executor called "Netflix" using jays stuff and charges people 25$.
 
-### How to you use CE with roblox?
+### Executor Works for Web and UWP
+- WARNING THIS ONLY WORKS IF THE GAME YOU ARE EXECUTING ON HAS A INVENTORY AND A TOOL IN ITS INVENTORY
+- Download the release then extract it to a folder run pleaseruneme.exe
+- After CE will pop up and then start roblox you will see a injector menu pop up dont touch it
+- Join this game, https://www.roblox.com/games/15287044370/script-execution-test and put in the ID of the game you want to use the executor on
+- after click the join button when u put the ID in and it will redirect you to the game
+- now open up CE and click inject, it will freeze your game for 20s, then equip the tool and the UI should pop up
+  <img src="https://media.discordapp.net/attachments/1160389674880217169/1172198876875333683/image.png?ex=655f7246&is=654cfd46&hm=330f2a30c5a465bdcb374e56ca546dc2d02e75b9f9d573f527a92ffbb9d3321a&=&width=816&height=425"> </a>
+
+
+
+### How to you use CE with roblox? Old Method
 well it's quite simple and you don't have to pay 25$ for it either :skull: this will only work for the UWP version for roblox
 
 - Install the UWP version of roblox from Microsoft web store
