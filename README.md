@@ -1,6 +1,11 @@
 # Ce_rbx
 Today, i decided to show the public something, well there has been a executor going around called "Netflix" which is just cheat engine source, with the icons changed and the name changed. Using our dev Jayys script he posted on verm. So this dude decided to scam people with this thing executor called "Netflix" using jays stuff and charges people 25$.
 
+### Credits
+- jayy -> Made the lua stuff
+- quiving lua UI and CE bypass stuff
+- Nano -> for fixing it 
+
 ### Executor Works for Web and UWP
 - WARNING THIS ONLY WORKS IF THE GAME YOU ARE EXECUTING ON HAS A INVENTORY AND A TOOL IN ITS INVENTORY
 - Download the release then extract it to a folder run pleaseruneme.exe
