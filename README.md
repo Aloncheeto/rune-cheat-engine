@@ -21,12 +21,12 @@ join the discord https://discord.gg/runesoftware we have reuploaded the game fil
 
 
 ### Custom lua
-- _G.IY() -> IF YEILD<br> 
-- _G.dex() -> Dex <br>
-- _G.prisonlife() -> PrisonLife Script<br>
-- _G.lt() -- Lumber Tycoon Money Farm<br>
-- _G.CMDY() -- Kohls Admin House<br>
-- _G.autoparry -- Blade Ball Auto Parry<br>
+- IY() -> IF YEILD<br> 
+- dex() -> Dex <br>
+- prisonlife() -> PrisonLife Script<br>
+- lt() -- Lumber Tycoon Money Farm<br>
+- CMDY() -- Kohls Admin House<br>
+- autoparry -- Blade Ball Auto Parry<br>
 
 
 
