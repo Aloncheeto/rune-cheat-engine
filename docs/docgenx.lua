@@ -26,8 +26,8 @@ function docgen.method(f_return, f_name, f_arguments, f_description, f_example)
 	return method
 end
 
-function docgen.entry(category, name, method)
-	category[name] = method
+function docgen.entry(category, idx, method)
+	table.insert(category, idx, method)
 end
 
 function docgen.filestr(path)
@@ -46,14 +46,15 @@ function docgen.build(tree)
 	local css = docgen.filestr("docstyle.css")
 	local body = ""
 
-	for cname, cval in next, tree.categories do
+	for CategoryName, CategoryData in next, tree.categories do
 		-- do something with categories. for now, not necessary
-		body = body .. '<h1 class="CategoryTitle">' .. cname .. "</h1>"
-		for mname, mval in next, cval do
+		body = body .. '<h1 class="CategoryTitle">' .. CategoryName .. "</h1>"
+
+		for idx, MethodData in next, CategoryData do
 			local methodargs = ""
 			local bodyentry = docgen.entry
-			if mval.args:len() ~= 0 then -- build argument list
-				for argvt, argvn in mval.args:gmatch("([%w/<>]+) ([%w%.]+)") do
+			if MethodData.args:len() ~= 0 then -- build argument list
+				for argvt, argvn in MethodData.args:gmatch("([%w/<>]+) ([%w%.]+)") do
 					methodargs = methodargs
 						.. ('<span class="CodeTypename">%s</span> %s, '):format(docgen.typename(argvt), argvn)
 				end
@@ -63,28 +64,28 @@ function docgen.build(tree)
 				methodargs = '<span class="CodeTypename">void</span>'
 			end
 
-			if mval.proprietary then
+			if MethodData.proprietary then
 				bodyentry = bodyentry:format(
-					mval.name,
+					MethodData.name,
 					"CodeDefinitionProprietary",
-					docgen.typename(mval.retn),
-					"#" .. mval.name,
-					mval.name,
+					docgen.typename(MethodData.retn),
+					"#" .. MethodData.name,
+					MethodData.name,
 					methodargs,
-					mval.desc,
-					mval.exam
+					MethodData.desc,
+					MethodData.exam
 				)
 				body = body .. bodyentry
 			else
 				bodyentry = bodyentry:format(
-					mval.name,
+					MethodData.name,
 					"CodeDefinition",
-					docgen.typename(mval.retn),
-					"#" .. mval.name,
-					mval.name,
+					docgen.typename(MethodData.retn),
+					"#" .. MethodData.name,
+					MethodData.name,
 					methodargs,
-					mval.desc,
-					mval.exam
+					MethodData.desc,
+					MethodData.exam
 				)
 				body = body .. bodyentry
 			end
@@ -122,9 +123,10 @@ function docgen.main()
 					Method_Info[3],
 					Method_Info[4],
 					Method_Info[5] or "No example provided"
+
 				docgen.entry(
 					category,
-					f_name,
+					idx2,
 					docgen.method(f_returntype, Libary_Prefix .. f_name, f_args, f_desc, f_example)
 				)
 			end

@@ -203,47 +203,7 @@ body
 		</div>
 		<div id="BodyContainer">
 			<h3>Definitions with a violet background are proprietary extensions, which are exclusive to <b>Rune CE</b>. Otherwise, definitions without a colored background are from the <a href="https://github.com/unified-naming-convention/NamingStandard" target="_blank">UNC standard</a>.</h3>
-			<h1 class="CategoryTitle">Environment Library</h1><div id="getscripts" class="CodeEntry">
-	<p class="CodeDefinition">
-		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;BaseScript&gt;</span></span> <a class="Anchor" href="#getscripts">getscripts</a>(<span class="CodeTypename">void</span>)
-	</p>
-	<p class="CodeDescription">
-		Returns a list of all scripts within the game.
-	</p>
-	<p class="CodeExample">
-		No example provided
-	</p>
-</div><div id="getinstances" class="CodeEntry">
-	<p class="CodeDefinition">
-		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;object&gt;</span></span> <a class="Anchor" href="#getinstances">getinstances</a>(<span class="CodeTypename">void</span>)
-	</p>
-	<p class="CodeDescription">
-		Returns a list of all instances within the game.
-	</p>
-	<p class="CodeExample">
-		No example provided
-	</p>
-</div><div id="getloadedmodules" class="CodeEntry">
-	<p class="CodeDefinition">
-		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;ModuleScript&gt;</span></span> <a class="Anchor" href="#getloadedmodules">getloadedmodules</a>(<span class="CodeTypename">void</span>)
-	</p>
-	<p class="CodeDescription">
-		Returns a list of all ModuleScripts within the game.
-	</p>
-	<p class="CodeExample">
-		No example provided
-	</p>
-</div><div id="getnilinstances" class="CodeEntry">
-	<p class="CodeDefinition">
-		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;BaseScript&gt;</span></span> <a class="Anchor" href="#getnilinstances">getnilinstances</a>(<span class="CodeTypename">void</span>)
-	</p>
-	<p class="CodeDescription">
-		Returns a list of all instances parented to nil within the game.
-	</p>
-	<p class="CodeExample">
-		No example provided
-	</p>
-</div><div id="getgenv" class="CodeEntry">
+			<h1 class="CategoryTitle">Environment Library</h1><div id="getgenv" class="CodeEntry">
 	<p class="CodeDefinition">
 		<span class="CodeTypename">table</span> <a class="Anchor" href="#getgenv">getgenv</a>(<span class="CodeTypename">void</span>)
 	</p>
@@ -273,6 +233,46 @@ body
 	<p class="CodeExample">
 		No example provided
 	</p>
+</div><div id="getinstances" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;object&gt;</span></span> <a class="Anchor" href="#getinstances">getinstances</a>(<span class="CodeTypename">void</span>)
+	</p>
+	<p class="CodeDescription">
+		Returns a list of all instances within the game.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
+</div><div id="getnilinstances" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;BaseScript&gt;</span></span> <a class="Anchor" href="#getnilinstances">getnilinstances</a>(<span class="CodeTypename">void</span>)
+	</p>
+	<p class="CodeDescription">
+		Returns a list of all instances parented to nil within the game.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
+</div><div id="getscripts" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;BaseScript&gt;</span></span> <a class="Anchor" href="#getscripts">getscripts</a>(<span class="CodeTypename">void</span>)
+	</p>
+	<p class="CodeDescription">
+		Returns a list of all scripts within the game.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
+</div><div id="getmodules" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">table<span class="CodeTypenameVariant"&gt;</span>&lt;ModuleScript&gt;</span></span> <a class="Anchor" href="#getmodules">getmodules</a>(<span class="CodeTypename">void</span>)
+	</p>
+	<p class="CodeDescription">
+		Returns a list of all ModuleScripts within the game.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
 </div><h1 class="CategoryTitle">Encryption Library</h1><div id="base64_encode" class="CodeEntry">
 	<p class="CodeDefinitionProprietary">
 		<span class="CodeTypename">string</span> <a class="Anchor" href="#base64_encode">base64_encode</a>(<span class="CodeTypename">string</span> Data)
@@ -289,6 +289,26 @@ body
 	</p>
 	<p class="CodeDescription">
 		Decodes Data from base64.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
+</div><h1 class="CategoryTitle">Closure Library</h1><div id="iscclosure" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">bool</span> <a class="Anchor" href="#iscclosure">iscclosure</a>(<span class="CodeTypename">function</span> f)
+	</p>
+	<p class="CodeDescription">
+		Returns true if f is a CClosure.
+	</p>
+	<p class="CodeExample">
+		No example provided
+	</p>
+</div><div id="islclosure" class="CodeEntry">
+	<p class="CodeDefinition">
+		<span class="CodeTypename">bool</span> <a class="Anchor" href="#islclosure">islclosure</a>(<span class="CodeTypename">function</span> f)
+	</p>
+	<p class="CodeDescription">
+		Returns true if f is an LClosure.
 	</p>
 	<p class="CodeExample">
 		No example provided

@@ -14,13 +14,17 @@ return {
 			"Returns a list of all instances parented to nil within the game.",
 		},
 		{ "table<BaseScript>", "getscripts", "", "Returns a list of all scripts within the game." },
-		{ "table<ModuleScript>", "getloadedmodules", "", "Returns a list of all ModuleScripts within the game." },
+		{ "table<ModuleScript>", "getmodules", "", "Returns a list of all ModuleScripts within the game." },
 		-- {
 		-- 	"variant<LocalScript/ModuleScript/nil>",
 		-- 	"getcallingscript",
 		-- 	"",
 		-- 	"Returns the script calling the current function.",
 		-- },
+	},
+	["Closure Library"] = {
+		{ "bool", "iscclosure", "function f", "Returns true if f is a CClosure." },
+		{ "bool", "islclosure", "function f", "Returns true if f is an LClosure." },
 	},
 	["Encryption Library"] = {
 		-- __PREFIX = "crypt",
