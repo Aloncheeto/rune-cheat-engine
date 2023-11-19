@@ -7,7 +7,7 @@ Rune CE works by using memory and the tool injection method en-order to run your
 ###How to use Rune CE 
 1. Start by download rune ce
 2. Open roblox through the game launcher and not the web ( it works better )
-3. When in the main menu of roblox run ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/a2bd8414-927e-4c77-b385-475d290357b6)
+3. When in the main menu of roblox run ***RUNE_CE.exe***<br />![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/a2bd8414-927e-4c77-b385-475d290357b6)
 4. if your screen looks like this then join the rune script test place ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/78f3b2c3-5205-45fa-a4f3-4417d9bc838b)
 5. Now teleport to the game and make sure it has tools to
 6. Next when you get in game the click enter in the command prompt ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/e488c988-c44f-4f9f-b158-b3cd5047e217)
