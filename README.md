@@ -13,3 +13,5 @@ Rune CE works by using memory and the tool injection method en-order to run your
 6. Next when you get in game the click enter in the command prompt ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/e488c988-c44f-4f9f-b158-b3cd5047e217)
 7. Now click inject and wait until the lua engine says to equip the tool ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/b7a2c2fe-59b0-43b3-b22f-9e915560f0f0)
 8. Once you equip your tool you should have the executor on your screen if the game crashes or it does not show you then you did something wrong![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/35fb5dba-f340-401d-a882-e054899dc925)
+## Documentation
+https://l4tt.github.io/rune-cheat-engine/
