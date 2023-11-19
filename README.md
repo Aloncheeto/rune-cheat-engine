@@ -4,7 +4,7 @@ by the rune cheat engine team
 ### How it works
 Rune CE works by using memory and the tool injection method en-order to run your desired scripts in its one of a kind enviroment.
 
-##$ How to use Rune CE 
+###How to use Rune CE 
 1. Start by download rune ce
 2. Open roblox through the game launcher and not the web ( it works better )
 3. When in the main menu of roblox run ![image](https://github.com/l4tt/rune-cheat-engine/assets/139589950/a2bd8414-927e-4c77-b385-475d290357b6)
